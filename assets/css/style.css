@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "arcade classic";
+  src: url("/assets/fonts/ARCADECLASSIC.TTF");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(99, 87, 199);
+  background: linear-gradient(
+    0deg,
+    rgba(99, 87, 199, 1) 0%,
+    rgba(253, 119, 120, 1) 100%
+  );
+  background-repeat: no-repeat;
+  font-family: arcade classic;
+}
+
+/* navbar : start */
+nav#navbar {
+  font-size: 24px;
+}
+
+.navbar-nav-bg-white {
+  background-color: transparent;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /*  */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .navbar-nav-bg-white {
+    background-color: #ffffff73;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /*  */
+}
+/* navbar : end */
+
+/* content : start */
+#content #detail-image {
+  font-size: 28px;
+  line-height: 24px;
+}
+
+#content #heading {
+  font-size: 38px;
+}
+
+#content #subheading {
+  color: #d54f7c;
+  font-size: 28px;
+}
+
+#content p {
+  font-size: 22px;
+}
+
+#content ol li {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#content ol span {
+  font-size: 22px;
+}
+
+#content p#job {
+  line-height: 18px;
+  font-size: 20px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #content #detail-image {
+    font-size: 38px;
+    line-height: 28px;
+  }
+
+  #content #heading {
+    font-size: 38px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #content #detail-image {
+    font-size: 48px;
+    line-height: 34px;
+  }
+
+  #content #heading {
+    font-size: 48px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /*  */
+}
+
+/* content : end */
